@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController
 class RutaPublicaController {
 
 
-    @GetMapping("/recurso1")
-    fun getRecursoPublicoUno () : String {
+    @GetMapping("/recurso3")
+    fun getRecursoPublicoTres() : String {
         return "Este recurso puede ser accedido por cualquiera, es público \uD83D\uDE0E"
     }
 
